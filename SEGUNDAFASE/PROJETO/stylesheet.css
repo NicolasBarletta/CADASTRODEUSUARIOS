@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+.cpf {
+    float:left;
+}
+
+input {
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+.quadrante::after {
+    content: ""; /* Limpa o float */
+    display: table;
+    clear: both;
+}
+
+.duo {
+    float: left;
+    margin-right: 10px; /* Opcional: espaço entre os inputs */
+    padding-bottom: 1rem;
+}
+
+.duo input {
+    width: 100px; /* Defina a largura desejada para os inputs */
+    margin-right: 1rem;
+}
+.final button {
+    margin-top: 10px;
+}
+.creci {
+    padding-right: 4rem;
+}
+.final .nome {
+    padding-right: 6rem;
+  
+}
+button {
+    background-color: #419f60;
+    color:white;
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    height: 40px; 
+    font-size: 16px; 
+}
+.table {
+    margin-top: 20px;
+   width: 20rem;
+   background: rgb(125, 165, 201);
+   color: #000;
+   font-family: 'Times New Roman', Times, serif;
+}
+.table tbody {
+    margin: 20px;
+}
+th, td {
+    border:  solid black;
+    padding: 5px;
+}
+.img {
+    width: 30px;
+    height: 30px;
+}

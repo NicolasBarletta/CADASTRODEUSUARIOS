@@ -1,0 +1,9 @@
+CREATE DATABASE projeto;
+
+CREATE TABLE projeto (
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    cpf BIGINT NOT NULL,
+    creci INT NOT NULL,
+    nome VARCHAR(220) NOT NULL
+);
+ 
